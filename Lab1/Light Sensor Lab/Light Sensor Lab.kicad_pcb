@@ -435,7 +435,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -1.082 -1.524 0)
+			(at -1.082 -1.778 0)
 			(layer "F.SilkS")
 			(uuid "93fa7e3e-fc11-4f12-9247-b17c85f0a9b7")
 			(effects
@@ -865,9 +865,9 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
-			(at 3.048 0 0)
+			(at 3.556 0 0)
 			(layer "F.SilkS")
-			(uuid "cfc5bbed-b796-4a33-870d-4c06f42aac18")
+			(uuid "dfaeb711-9631-4da8-aeab-ea951502f90b")
 			(effects
 				(font
 					(size 1 1)
@@ -878,7 +878,7 @@
 		(property "Value" "5.1M"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
-			(uuid "282be8b0-1234-4771-a146-f22438f3ae09")
+			(uuid "972dd8e1-4b9b-4c33-bafd-dcc17da132d2")
 			(effects
 				(font
 					(size 1 1)
@@ -890,7 +890,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cb4f7fe1-6ff8-4332-91e2-177a9eba07fb")
+			(uuid "f7495555-d410-4d4d-b373-29a895ba0562")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +902,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5846bb23-dadd-4f0c-ace6-3ab73ea0d015")
+			(uuid "496dd6bc-741c-4e1d-9b9f-c7905d729677")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1271,7 @@
 		(descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
-			(at -0.762 -1.838 90)
+			(at -1.016 -1.584 180)
 			(layer "F.SilkS")
 			(uuid "31691a10-1103-4de2-a095-826c38831aeb")
 			(effects
@@ -1535,7 +1535,7 @@
 		(descr "Potentiometer, vertical, Vishay T7-YA Single, http://www.vishay.com/docs/51015/t7.pdf")
 		(tags "Potentiometer vertical Vishay T7-YA Single")
 		(property "Reference" "RV1"
-			(at 4.318 -1.778 180)
+			(at 4.318 -0.254 180)
 			(layer "F.SilkS")
 			(uuid "1ff0df19-223f-48b2-8324-1b61c8eac0f3")
 			(effects
@@ -2119,6 +2119,82 @@
 		(layer "Edge.Cuts")
 		(uuid "1841d715-1a3c-470f-abc9-c495710659db")
 	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "5d96fd58-2fbb-4710-aec4-870fd9e5b382")
+		(pts
+			(xy 158.496 78.74) (xy 139.192 78.74)
+		)
+		(height -3.048)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "19.304"
+			(at 148.844 73.892 0)
+			(layer "F.Cu")
+			(uuid "5d96fd58-2fbb-4710-aec4-870fd9e5b382")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Cu")
+		(uuid "6e7b5f75-3506-40b5-91e2-bc274da1dab1")
+		(pts
+			(xy 158.496 98.552) (xy 158.496 78.74)
+		)
+		(height 5.08)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "19.812"
+			(at 161.776 88.646 90)
+			(layer "F.Cu")
+			(uuid "6e7b5f75-3506-40b5-91e2-bc274da1dab1")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
 	(segment
 		(start 141.478 87.884)
 		(end 143.764 90.17)
@@ -2264,12 +2340,20 @@
 		(uuid "1559fead-9c21-4f86-bdb0-6bd32b3ade99")
 	)
 	(segment
-		(start 148.04 94.996)
-		(end 148.04 94.784)
+		(start 147.706 94.662)
+		(end 148.04 94.996)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 3)
-		(uuid "58ce7479-65e5-4799-8eae-4064e7fa9592")
+		(uuid "2df478c9-71df-46ff-a265-cfbc09e09611")
+	)
+	(segment
+		(start 147.706 90.678)
+		(end 147.706 94.662)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "6b620898-9a7c-4faf-9958-b9d36e60dc54")
 	)
 	(segment
 		(start 152.7605 87.777501)
@@ -2278,14 +2362,6 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "8f89fa5c-24e9-47e7-a15c-a78e278ab254")
-	)
-	(segment
-		(start 147.452 94.196)
-		(end 147.452 90.424)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "ad7bdc3b-5dac-45e1-ab97-ea1b017f0142")
 	)
 	(segment
 		(start 150.886001 89.652)
@@ -2328,14 +2404,6 @@
 		(uuid "de3cfa57-1786-433e-8c33-ebd8bd61233b")
 	)
 	(segment
-		(start 148.04 94.784)
-		(end 147.452 94.196)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "ef8cabfd-cc32-424b-9e94-9b4817018b74")
-	)
-	(segment
 		(start 155.194 80.518)
 		(end 152.908 80.518)
 		(width 0.2)
@@ -2352,28 +2420,28 @@
 		(uuid "20b468c6-a4ee-4d64-858b-99476cc48fa2")
 	)
 	(segment
-		(start 154.302 87.884)
-		(end 153.924 88.262)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "2b7df1fe-583c-4738-8f34-aa2cfdb976b5")
-	)
-	(segment
-		(start 153.924 90.424)
-		(end 149.352 90.424)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "2ea9fac9-ba29-47ec-b07d-4d32c22fadf9")
-	)
-	(segment
 		(start 149.352 84.074)
 		(end 150.145032 84.074)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 4)
 		(uuid "523e3ef8-568e-4a1b-aacb-b2e41d5b8e74")
+	)
+	(segment
+		(start 151.508 90.678)
+		(end 154.302 87.884)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "54382689-c7dc-4a65-8ee7-4032c9309e60")
+	)
+	(segment
+		(start 149.606 90.678)
+		(end 151.508 90.678)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "663502dd-0e66-4228-af8c-bd0b4f461f0c")
 	)
 	(segment
 		(start 153.955032 87.884)
@@ -2390,22 +2458,6 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "ca2c6191-ffb2-43ed-9cb0-e919506c3e63")
-	)
-	(segment
-		(start 148.377001 84.074)
-		(end 149.352 84.074)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "ce6309af-94d2-411d-b07c-c37fffc7cb03")
-	)
-	(segment
-		(start 153.924 88.262)
-		(end 153.924 90.424)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 4)
-		(uuid "e496c969-d3e3-41ab-9762-89e6ebccea25")
 	)
 	(segment
 		(start 154.302 85.344)
