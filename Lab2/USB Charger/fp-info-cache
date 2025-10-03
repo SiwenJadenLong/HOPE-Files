@@ -1,4 +1,11 @@
-27452479521342424
+27454238858157414
+10118192_0002LF
+AMPHENOL_10118192-0002LF
+
+
+0
+11
+11
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105468,6 +105475,13 @@ igbt diode module
 0
 25
 25
+USB1046_GF_0190_L_B_A
+GCT_USB1046-GF-0190-L-B-A_REVB4
+
+
+0
+6
+6
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -109500,10 +109514,3 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
-footprints
-DRL0006A
-
-TPS61023DRLR 
-0
-6
-6
