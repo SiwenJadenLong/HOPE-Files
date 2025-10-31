@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Downloaded")(type "KiCad")(uri "C:/Clones/HOPE-Files/Lab2/Custom")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "C:/Clones/HOPE-Files/Lab2/Custom/custom.pretty")(options "")(descr ""))
+  (lib (name "TPS61023DRLR")(type "KiCad")(uri "C:/Clones/HOPE-Files/Lab2/Downloaded/TPS61023DRLR")(options "")(descr ""))
+)
